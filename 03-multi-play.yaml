@@ -1,0 +1,9 @@
+- name: play-1
+  hosts: local
+  tasks:
+  - name: task 1
+    debug:
+      msg: "task -1 play"
+  - name: task 2
+    debug:
+      msg: "taks -2 playing"
