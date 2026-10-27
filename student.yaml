@@ -1,0 +1,13 @@
+- first_name: "vinay"
+  last_name: "kumar"
+  dob: 01-01-01
+  # - is for list
+  addresses:
+  - type: permanent
+    doorNo: 44,
+    streetName: "jp nagar"
+    city: "bangalore"
+    skills:
+    - os: "linux"
+      IDE: "vscode"
+      cm: "ansible"
