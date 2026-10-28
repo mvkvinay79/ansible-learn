@@ -16,5 +16,5 @@
     vars:
       course: "ansible learning"
     debug:
-      msg: "Course: {{ course }}, Trainer: {{ trainer }}, Duration: {{ duration }}"
+      msg: "Course: {{ course }}"
   
