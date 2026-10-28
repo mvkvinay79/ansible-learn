@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars:
-    course: "ansible"
+    course: "ansible from playbook"
     trainer: "John Doe"
     duration: "3 days"
   vars_prompt:
