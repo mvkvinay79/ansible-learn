@@ -1,0 +1,6 @@
+- name: varaible from inverntory
+  hosts: frontend
+  tasks:
+    - name: print tthe varaibles
+      debug:
+        msg: "hi course name is {{ course }} and the trainer name is {{ trainer }}"
