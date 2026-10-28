@@ -6,9 +6,9 @@
     trainer: "John Doe"
     duration: "3 days"
   vars_prompt:
-    - name: course from pront
-      prompt: "enter your course"
-      private: false
+  - name: course from pront
+    prompt: "enter your course"
+    private: false
   vars_files:
   - course.yaml
   tasks:
