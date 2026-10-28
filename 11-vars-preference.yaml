@@ -1,0 +1,20 @@
+- name: varaible preference
+  hosts: local
+  connection: local
+  vars:
+    course: "ansible"
+    trainer: "John Doe"
+    duration: "3 days"
+  vars_prompt:
+    - name: course
+      prompt: "enter your course"
+      private: false
+  vars_files:
+  - course.yaml
+  tasks:
+  - name: print course details
+    vars:
+      course: "ansible learning"
+    debug:
+      msg: "Course: {{ course }}, Trainer: {{ trainer }}, Duration: {{ duration }}"
+  
