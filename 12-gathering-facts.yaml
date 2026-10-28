@@ -10,7 +10,7 @@
       msg: |
        OS family: {{ ansible_facts['os_family'] }}
        private_ip: {{ ansible_facts['default_ipv4'] }}
-       timezone: {{ ansibe_facts['date_time'] }}
+       timezone: {{ ansible_facts['date_time'] }}
 
             
 
