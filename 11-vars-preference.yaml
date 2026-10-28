@@ -2,9 +2,8 @@
   hosts: local
   connection: local
   vars:
-    course: "ansible from playbook"
-    trainer: "John Doe"
-    duration: "3 days"
+    #course: "ansible from playbook"
+   
   vars_prompt:
   - name: course from pront
     prompt: "enter your course"
