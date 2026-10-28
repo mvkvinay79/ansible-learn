@@ -1,0 +1,14 @@
+- name: demo on variables
+  host: local 
+  connection: local
+  vars:
+    property: "10 acres"
+  tasks:
+  - name: print the vars
+    debug:
+      msg: "hi i got {{ property }}"
+  - name: print the vars assign
+    vars:
+      property: "15 acres"
+    debug:
+      msg: {{ property }}
