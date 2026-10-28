@@ -1,0 +1,9 @@
+- name: dmeo on variables import
+  hosts: local
+  connection: local
+  vars_files:
+    - course.yaml
+  tasks:
+  - name: print course details import
+    debug:
+      msg: "hi i am learning {{ course}} training by {{ trainer }} for {{ duration }}"
