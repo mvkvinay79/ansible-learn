@@ -6,7 +6,7 @@
     trainer: "John Doe"
     duration: "3 days"
   vars_prompt:
-    - name: course
+    - name: course from pront
       prompt: "enter your course"
       private: false
   vars_files:
