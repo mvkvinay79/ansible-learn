@@ -11,4 +11,4 @@
     vars:
       property: "15 acres"
     debug:
-      msg: {{ property }}
+      msg: "{{ property }}"
