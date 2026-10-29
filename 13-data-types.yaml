@@ -19,3 +19,4 @@
       debug:
         msg: |
           name: "{{ course }} : {{ course | type_debug}}"
+          duration: "{{ duration_in_hrs}} : {{ duration_in_hrs | type_debug}}"
