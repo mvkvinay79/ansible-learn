@@ -1,6 +1,6 @@
 - name: course information
   hosts: local
-  connections: local
+  connection: local
   vars:
     course: "aiops with devsecops on aws"
     duration_in_hrs: 150
