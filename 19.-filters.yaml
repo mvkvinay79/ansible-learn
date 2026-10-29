@@ -8,7 +8,9 @@
       debug:
         msg: "Hi, {{ person_name | default('Ramesh')}}"
     
-        
+    - name: convert string to list
+      debug:
+        msg: "topics are: {{ topics | split(',') | join(', ')}}"    
         
         
         #msg: "Topics are: {{ topics | split(',') | map('trim') | join(',') }}"
