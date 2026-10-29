@@ -15,7 +15,7 @@
       months: 4
     exact_duration_in_months: 4.5
   tasks:
-    - name: rint info and type
+    - name: print info and type
       debug:
         msg: |
           name: "{{ course }} : {{ course | type_debug}}"
