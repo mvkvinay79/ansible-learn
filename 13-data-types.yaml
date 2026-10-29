@@ -23,4 +23,4 @@
           livesession: "{{ is_live_session}} : {{ is_live_session | type_debug}}"
           topic: "{{ topics }} : {{ topics | type_debug}}"
           more_details: "{{ more_details}} : {{ more_details | type_debug}}"
-          exact-duratoin: "{{ more_details }} : {{ more_details | type_debug}}"
+          exact-duratoin: "{{ exact_duration_in_months }} : {{ exact_duration_in_months | type_debug}}"
