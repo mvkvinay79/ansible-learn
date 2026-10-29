@@ -10,7 +10,7 @@
     
     - name: convert string to list
       debug:
-        msg: "topics are: {{ topics | split(',') | join(', ') | trim }}"    
+        msg: "topics are: {{ topics | split(',') | join(', ') | map('trim') }}"    
         
         
         #msg: "Topics are: {{ topics | split(',') | map('trim') | join(',') }}"
