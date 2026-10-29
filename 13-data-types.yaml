@@ -20,3 +20,4 @@
         msg: |
           name: "{{ course }} : {{ course | type_debug}}"
           duration: "{{ duration_in_hrs}} : {{ duration_in_hrs | type_debug}}"
+          livesession: "{{ is_live_session}} : {{ is_live_session | type_debug}"
