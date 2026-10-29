@@ -20,4 +20,4 @@
 
     - name: convert string to list
       debug:
-        msg: "Topics are: {{ topics | split(',') | map('trim') | join(', ') }}"
+        msg: "Topics are: {{ topics | split(',') | map('trim') | join(',') }}"
