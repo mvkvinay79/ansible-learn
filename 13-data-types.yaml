@@ -1,0 +1,21 @@
+- name: course information
+  hosts: local
+  connections: local
+  vars:
+    course: "aiops with devsecops on aws"
+    duration_in_hrs: 150
+    is_live_session: true
+    topics:
+    - Linux
+    - Terraform
+    - Shell
+    - Ansible
+    more_details: 
+      trainer: vinay
+      months: 4
+    exact_duration_in_months: 4.5
+  tasks:
+    - name: rint info and type
+      debug:
+        msg: |
+          name: "{{ course }} : {{ course | type_debug}}"
