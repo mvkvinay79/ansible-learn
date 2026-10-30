@@ -13,7 +13,7 @@
       msg: "hi, {{ person_name | default('ramesh') }}"
   - name: convert to string
     debug:
-      msg: "toics are: {{ topics | split(',') | trim }}"
+      msg: "toics are: {{ topics | split(',') | trim | join(' ') }}"
   - name:
     debug:
       msg: "full name {{ names | join(' ')}}"
