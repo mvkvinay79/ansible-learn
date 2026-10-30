@@ -20,6 +20,6 @@
       msg: "full name {{ names | join(' ')}}"
   - name: convert to lower case
     debug:
-      msg: "Topic: {{toplic | lower }} " 
+      msg: "Topic: {{topic | lower }} " 
 
           #msg: "Topics are: {{ topics | split(',') | map('trim') | join(',') }}"
