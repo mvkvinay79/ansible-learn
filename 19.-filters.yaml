@@ -3,14 +3,17 @@
   connection: local
   vars:
     topics: Linux, Shell, ANsible, Terraform, Docker
+    names:
+    - Malepati
+    - vinay
+    - kumar
   tasks:
-    - name: print name
-      debug:
-        msg: "Hi, {{ person_name | default('Ramesh')}}"
-    
-    - name: convert string to list
-      debug:
-        msg: "topics are: {{ topics | split(',')  | map('trim') | join(', ') }}"    
-        
-        
-        #msg: "Topics are: {{ topics | split(',') | map('trim') | join(',') }}"
+  - name: rint the name
+    debug:
+      msg: "hi, {{ person_name | default('ramesh') }}"
+  - name: convert to string
+    debug:
+      msg: "toics are: {{ topics | split(',') | trim }}"
+  - name:
+    debug:
+      msg: "full name {{ names | join}}"
